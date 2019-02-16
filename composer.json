@@ -1,0 +1,27 @@
+{
+	"name": "able/git",
+	"version": "1.0",
+	"type": "library",
+	"keywords": ["phpable", "git", "guthub", "git-client", "git-wrapper", "wrapper", "php"],
+	"description": "phpABLE git-client",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "hacpaka",
+			"email": "hacpaka@eggbe.com"
+		}
+	],
+	"require": {
+		"php": ">=7.2.0",
+		"able/helpers": "dev-master",
+		"able/prototypes": "dev-master",
+		"able/process": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Able\\Git\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
